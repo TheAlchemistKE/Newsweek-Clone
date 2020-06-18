@@ -1,4 +1,6 @@
-# TNW CLONE
+# Newsweek
+![Linters](https://github.com/KelynPNjeri/Newsweek-Clone/workflows/Linters/badge.svg?branch=develop)
+
 
 > This website project is clone of TNW website. We used CSS media queries to
 > make this responsive on Mobile, Tablet and Desktop.
@@ -8,10 +10,9 @@
 We used mixture of CSS flex and Grid to layout it.
 
 ## Built With
-
-- HTML, CSS
-- CSS Media Queries
-- CSS flex And Grid
+- HTML
+- CSS
+- Bootstrap
 
 ## Live Demo
 
