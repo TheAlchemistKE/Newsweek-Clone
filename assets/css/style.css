@@ -26,8 +26,13 @@ img {
   margin: 10px auto 0;
 }
 
+.navbar {
+  background-color: #fff;
+}
+
 .navbar a {
   color: #333;
+  border-right: 1px solid #ccc;
 }
 
 .actions > .btn-primary {
@@ -121,4 +126,8 @@ section > h2 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
+}
+
+.row-card {
+  height: 80px;
 }
