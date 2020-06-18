@@ -71,7 +71,12 @@ img {
   height: 200px;
 }
 
-.col-lg-3 > a {
+.col-lg-6 > img {
+  height: 250px;
+}
+
+.col-lg-3 > a,
+.col-lg-6 > a {
   font-size: 18px;
   font-weight: bold;
   color: black;
@@ -103,4 +108,17 @@ img {
 
 .container-fluid {
   background-color: #fff;
+}
+
+.magazine,
+.editors-pick {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+section > h2 {
+  color: #f72210;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
 }
