@@ -2,12 +2,11 @@
 ![Linters](https://github.com/KelynPNjeri/Newsweek-Clone/workflows/Linters/badge.svg?branch=develop)
 
 
-> This website project is clone of TNW website. We used CSS media queries to
-> make this responsive on Mobile, Tablet and Desktop.
+> This website project is clone of the Newsweek landing page.
+> The project is responsive across all screen widths.
+
 
 ![screenshot](./assets/images/tnw.png)
-
-We used mixture of CSS flex and Grid to layout it.
 
 ## Built With
 - HTML
@@ -16,33 +15,26 @@ We used mixture of CSS flex and Grid to layout it.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KelynPNjeri/TNW-Clone/d2983a6bd16156197434065ab6879615e7f3c351/index.html)
+[Live Demo Link](https://raw.githack.com/KelynPNjeri/Newsweek-Clone/develop/index.html)
 
 ## Getting Started
 
 **Feel Free To Clone The Project And Use Our Code.**
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
-### Go to https://github.com/KelynPNjeri/TNW-Clone
-
-### No Setup required
-
-### Clone It Or Use The Code
+- Go to https://github.com/KelynPNjeri/Newsweek-Clone
+- Clone the repository using `git clone https://github.com/KelynPNjeri/Newsweek-Clone`
+- Run index.html on your browser.
 
 ## Authors
 
-👤 **Author1**
+👤 **Kelyn Paul Njeri**
 
 - Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
 - Twitter: [@KelynNjeri](https://twitter.com/KelynNjeri)
 - Linkedin: [Kelyn Njeri](https://www.linkedin.com/in/kelyn-paul)
 
-👤 **Author2**
-
-- Github: [@SajjadAhmad14](https://github.com/SajjadAhmad14)
-- Twitter: [@Sajjad Ahmad](https://twitter.com/Sajjad_Ahmad14)
-- Linkedin: [Sajjad Ahmad](https://www.linkedin.com/in/sajjad-ahmad-86102117a/)
 
 ## 🤝 Contributing
 
@@ -56,5 +48,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Team Ocicats
-- TNW Landing Page
+- Team Ocicats.
+- Newsweek Landing Page.
