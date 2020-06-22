@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f5f6;
@@ -6,6 +10,11 @@ body {
 
 img {
   width: 100%;
+}
+
+.upper-nav > p {
+  color: #fff;
+  font-size: ;
 }
 
 .title {
@@ -33,6 +42,7 @@ img {
 .navbar a {
   color: #333;
   border-right: 1px solid #ccc;
+  font-weight: bold;
 }
 
 .actions > .btn-primary {
@@ -54,6 +64,54 @@ img {
   background-size: cover;
 }
 
+.image2 {
+  background-image: url(../images/fearless-girl-wall-street.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url(../images/chaz-retrial-people-color.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image4 {
+  background-image: url(../images/statue-christopher-columbus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image5 {
+  background-image: url(../images/jeff-memorial.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image6 {
+  background-image: url(../images/traveler-wears-mask-airport.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image7 {
+  background-image: url(../images/trump.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image8 {
+  background-image: url(../images/fearless-girl-wall-street.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .card-image {
   width: 100%;
@@ -64,10 +122,9 @@ img {
   background-size: cover;
 }
 
-
-.card-image p {
-  color: #fff;
-  background-color: slateblue;
+.tag {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
   left: 0;
   padding: 0 20px;
@@ -81,7 +138,8 @@ img {
 }
 
 .col-lg-3 > img {
-  height: 200px;
+  width: 300px;
+  height: 350px;
 }
 
 .col-lg-6 > img {
@@ -98,6 +156,77 @@ img {
 .col-lg-3 > a:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
+}
+
+.debate-items > .row > img .opinion > .row > img {
+  width: 100px;
+}
+
+.opinion > h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+section > h2 {
+  color: #f72210;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.debate > h2 {
+  border-bottom: 5px solid #f72210;
+}
+
+.row1 {
+  border-bottom: 4px double #ccc;
+}
+
+.row2 {
+  border-bottom: 4px solid #1c87fb;
+}
+
+.col-lg-5 > .card > .card-image:nth-child(1) {
+  background-image: url(../images/daca-supreme-court.jpg);
+}
+
+.img1 {
+  background-image: url(../images/shipwreck-mexico-manuel-polanco.jpg);
+}
+
+.img2 {
+  background-image: url(../images/barbie-lockdown-parody-family.png);
+}
+
+.img3 {
+  background-image: url(../images/disability-soccer-personal-development-coaching.jpg);
+}
+
+.img4 {
+  background-image: url(../images/cul-uncharted-culturaladaptations-banner.jpg);
+}
+
+.img5 {
+  background-image: url(../images/traveler-wears-mask-airport.jpg);
+}
+
+.img6 {
+  background-image: url(../images/just-mercy.png);
+}
+
+.turn > .card p {
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  word-spacing: 2px;
+  padding: 10px 0;
+}
+
+.col-lg-9 h5 {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .category {
@@ -127,13 +256,6 @@ img {
 .editors-pick {
   border-bottom: 2px solid #ccc;
   margin-bottom: 10px;
-}
-
-section > h2 {
-  color: #f72210;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .row-card {
