@@ -15,7 +15,6 @@ img {
   font-size: 20px;
 }
 
-
 .upper-nav > p {
   color: #fff;
 }
@@ -45,6 +44,13 @@ img {
 .navbar a {
   color: #333;
   border-right: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #f72210;
+  border: 0;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -127,6 +133,18 @@ img {
   background-color: #f4f5f6;
 }
 
+section > h2,
+.section-class {
+  color: #f72210;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.debate > h2 {
+  border-bottom: 5px solid #f72210;
+}
+
 .card h2 {
   font-size: 20px;
   font-weight: bold;
@@ -184,6 +202,14 @@ img {
   text-decoration-color: #f72210;
 }
 
+.section-declaration > img {
+  width: 32px;
+}
+
+.subscribe > img {
+  width: 150px;
+}
+
 .debate-items > .row > img .opinion > .row > img {
   width: 100px;
 }
@@ -193,18 +219,6 @@ img {
   font-size: 16px;
   font-weight: bold;
   text-align: justify;
-}
-
-section > h2,
-.section-class {
-  color: #f72210;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.debate > h2 {
-  border-bottom: 5px solid #f72210;
 }
 
 .row1 {
@@ -285,25 +299,10 @@ section > h2,
   font-weight: bold;
 }
 
-.section-declaration > img {
-  width: 32px;
-}
-
 .subscribe-group {
   background-color: #f4f5f6;
   height: fit-content;
   padding: 50px 10px;
-}
-
-.subscribe > img {
-  width: 150px;
-}
-
-.btn-primary {
-  background-color: #f72210;
-  border: 0;
-  color: #fff;
-  font-weight: bold;
 }
 
 .newsletter-info > .btn-primary {
@@ -332,6 +331,7 @@ section > h2,
 .row-card {
   height: 80px;
 }
+
 .footer-logo > svg {
   width: 250px;
 }
@@ -351,6 +351,7 @@ section > h2,
 .fa-instagram:hover {
   color: #4c5fd7;
 }
+
 .d-inline {
   vertical-align: bottom;
   text-transform: uppercase;
@@ -361,9 +362,26 @@ section > h2,
 }
 
 .fa-linkedin-in:hover {
-  color:  #007bb5;
+  color: #007bb5;
 }
 
 .footer-links {
   font-size: 15px;
 }
+
+/* Phones. */
+@media screen and (min-width: 320px) {
+  .top-story {
+    order: 1;
+  }
+
+  .debate {
+    order: 2;
+  }
+
+  .featured-stories {
+    order: 3;
+  }
+}
+
+/* Tablets */
