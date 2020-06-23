@@ -15,6 +15,7 @@ img {
   font-size: 20px;
 }
 
+
 .upper-nav > p {
   color: #fff;
 }
@@ -113,6 +114,17 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.image9 {
+  background-image: url(../images/cover-june-19-26-2020.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background-color: #f4f5f6;
 }
 
 .card h2 {
@@ -266,11 +278,13 @@ section > h2,
 .container-fluid {
   background-color: #fff;
 }
+
 .section-declaration {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
 }
+
 .section-declaration > img {
   width: 32px;
 }
@@ -280,23 +294,26 @@ section > h2,
   height: fit-content;
   padding: 50px 10px;
 }
+
 .subscribe > img {
   width: 150px;
-  
-} 
+}
+
 .btn-primary {
   background-color: #f72210;
   border: 0;
-  color: #fff ;
+  color: #fff;
   font-weight: bold;
 }
-.newsletter-info>.btn-primary {
+
+.newsletter-info > .btn-primary {
   color: #fff;
 }
+
 .subscribe-cover {
   position: absolute;
   left: 60px;
-  top: 40px
+  top: 40px;
 }
 
 .subscribe-text h3 {
@@ -314,4 +331,39 @@ section > h2,
 
 .row-card {
   height: 80px;
+}
+.footer-logo > svg {
+  width: 250px;
+}
+
+.social-icons {
+  font-size: 28px;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #4c5fd7;
+}
+.d-inline {
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+.fa-tumblr:hover {
+  color: #35465d;
+}
+
+.fa-linkedin-in:hover {
+  color:  #007bb5;
+}
+
+.footer-links {
+  font-size: 15px;
 }
