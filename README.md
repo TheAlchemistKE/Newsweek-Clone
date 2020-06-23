@@ -6,7 +6,7 @@
 > The project is responsive across all screen widths.
 
 
-![screenshot](./assets/images/tnw.png)
+![screenshot](./assets/images/screenshot.png)
 
 ## Built With
 - HTML

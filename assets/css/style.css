@@ -370,7 +370,7 @@ section > h2,
 }
 
 /* Phones. */
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .top-story {
     order: 1;
   }
