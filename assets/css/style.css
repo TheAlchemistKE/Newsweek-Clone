@@ -388,7 +388,7 @@ section > h2,
 }
 
 /* Phones. */
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   header {
     display: none;
   }
