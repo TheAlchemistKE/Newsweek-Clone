@@ -210,8 +210,11 @@ section > h2,
   width: 150px;
 }
 
-.debate-items > .row > img .opinion > .row > img {
+.debate-items > .row > img,
+.opinion > .row > img,
+.row1 > img {
   width: 100px;
+  height: 70px !important;
 }
 
 .opinion > h3 {
@@ -287,10 +290,6 @@ section > h2,
 .category span:nth-child(2) {
   background-color: #fff;
   color: #f72210;
-}
-
-.container-fluid {
-  background-color: #fff;
 }
 
 .section-declaration {
@@ -385,3 +384,74 @@ section > h2,
 }
 
 /* Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+  .navbar {
+    display: none !important;
+  }
+
+  .featured-stories {
+    position: relative;
+    top: 0;
+  }
+  .debate-items > .row > img {
+    width: 80px;
+    height: 60px;
+  }
+  .opinion > .row > img,
+  .more-stories > .row > img,
+  .col-lg-4 > .row > img {
+    width: 70px;
+    height: 70px !important;
+  }
+  .opinion > .row,
+  .more-stories > .row,
+  .col-lg-4 > .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  header {
+    display: none;
+  }
+
+  .mobile-nav {
+    height: 10vh;
+    padding: 20px 10px;
+    background-color: #f72210;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    
+  }
+
+  .nav-logo > svg {
+    width: 200px;
+  }
+  .mobile-actions > a:nth-child(1) {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .mobile-actions > .btn-primary {
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+  }
+  .fa-bars {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-story,
+  .debate {
+  position: sticky;
+  bottom: 0;
+  align-self: flex-end;
+}
+}
