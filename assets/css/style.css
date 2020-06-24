@@ -8,10 +8,12 @@ body {
 img {
   width: 100%;
 }
+
 header {
   width: 96%;
   margin: 0 auto;
 }
+
 .container {
   max-width: 96% !important;
 }
@@ -192,9 +194,15 @@ section > h2,
   height: 30vh;
 }
 
+.turn > .card p {
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  word-spacing: 2px;
+  padding: 10px 0;
+}
+
 .opinion > .row > p:hover {
   color: silver;
-
 }
 
 .col-lg-3 > img {
@@ -206,11 +214,10 @@ section > h2,
   height: 250px;
 }
 
-
-.col-lg-3 > .d-flex > a,
-.col-lg-6 > .d-flex > a,
 .col-lg-3 > a,
-.col-lg-6 > a {
+.col-lg-6 > a,
+.col-lg-3 > .d-flex > a,
+.col-lg-6 > .d-flex > a {
   font-size: 18px;
   font-weight: bold;
   color: black;
@@ -229,9 +236,9 @@ section > h2,
   width: 150px;
 }
 
+.row1 > img,
 .debate-items > .row > img,
-.opinion > .row > img,
-.row1 > img {
+.opinion > .row > img {
   width: 100px;
   height: 70px !important;
 }
@@ -277,13 +284,6 @@ section > h2,
 
 .img6 {
   background-image: url(../images/just-mercy.png);
-}
-
-.turn > .card p {
-  font: bold 14px/14px "Roboto Condensed", sans-serif;
-  color: rgba(3, 3, 3, 0.4);
-  word-spacing: 2px;
-  padding: 10px 0;
 }
 
 .col-lg-9 h5 {
@@ -388,13 +388,15 @@ section > h2,
 }
 
 /* Phones. */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   header {
     display: none;
   }
+
   .container {
     max-width: 100% !important;
   }
+
   .top-story {
     order: 1;
   }
@@ -405,26 +407,25 @@ section > h2,
     position: relative;
     top: 0;
   }
+
   .debate-items > .row > img {
     width: 80px;
     height: 60px;
   }
+
   .opinion > .row > img,
   .more-stories > .row > img,
   .col-lg-4 > .row > img {
     width: 70px;
     height: 70px !important;
   }
+
   .opinion > .row,
   .more-stories > .row,
   .col-lg-4 > .row {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-
-  header {
-    display: none;
   }
 
   .mobile-nav {
@@ -435,8 +436,8 @@ section > h2,
     position: sticky;
     top: 0;
     z-index: 10000;
-    
   }
+
   .row > .col-lg-8,
   .subscribe-group,
   .newsletter {
@@ -468,45 +469,51 @@ section > h2,
   .nav-logo > svg {
     width: 100px;
   }
+
   .mobile-actions > a:nth-child(1) {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
   }
+
   .mobile-actions > .btn-primary {
     background-color: yellow;
     color: black;
     border-radius: 25px;
   }
+
   .fa-bars {
     font-size: 16px;
   }
+
   .featured-stories {
     order: 3;
   }
-
 }
 
 /* Tablets */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 100%; 
+    max-width: 100%;
   }
 
   .featured-stories {
     position: sticky;
-    bottom: 0px;
+    bottom: 0;
   }
+
   .debate-items > .row > img {
     width: 80px;
     height: 60px;
   }
+
   .opinion > .row > img,
   .more-stories > .row > img,
   .col-lg-4 > .row > img {
     width: 70px;
     height: 70px !important;
   }
+
   .opinion > .row,
   .more-stories > .row,
   .col-lg-4 > .row {
@@ -526,33 +533,34 @@ section > h2,
     position: sticky;
     top: 0;
     z-index: 10000;
-    
   }
 
   .nav-logo > svg {
     width: 200px;
   }
+
   .mobile-actions > a:nth-child(1) {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
   }
+
   .mobile-actions > .btn-primary {
     background-color: yellow;
     color: black;
     border-radius: 25px;
   }
+
   .fa-bars {
     font-size: 16px;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
   .top-story,
   .debate {
-  position: sticky;
-  bottom: 0;
-  align-self: flex-end;
-}
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
 }
