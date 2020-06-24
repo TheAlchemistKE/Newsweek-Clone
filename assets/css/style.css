@@ -8,6 +8,17 @@ body {
 img {
   width: 100%;
 }
+header {
+  width: 96%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 96% !important;
+}
+
+.mobile-nav {
+  display: none !important;
+}
 
 .btn-login {
   color: #fff;
@@ -181,6 +192,11 @@ section > h2,
   height: 30vh;
 }
 
+.opinion > .row > p:hover {
+  color: silver;
+
+}
+
 .col-lg-3 > img {
   width: 300px;
   height: 350px;
@@ -190,6 +206,9 @@ section > h2,
   height: 250px;
 }
 
+
+.col-lg-3 > .d-flex > a,
+.col-lg-6 > .d-flex > a,
 .col-lg-3 > a,
 .col-lg-6 > a {
   font-size: 18px;
@@ -197,7 +216,7 @@ section > h2,
   color: black;
 }
 
-.col-lg-3 > a:hover {
+.col-lg-3 > .d-flex > a:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
 }
@@ -370,21 +389,106 @@ section > h2,
 
 /* Phones. */
 @media screen and (max-width: 320px) {
+  header {
+    display: none;
+  }
+  .container {
+    max-width: 100% !important;
+  }
   .top-story {
     order: 1;
   }
 
   .debate {
     order: 2;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+  .debate-items > .row > img {
+    width: 80px;
+    height: 60px;
+  }
+  .opinion > .row > img,
+  .more-stories > .row > img,
+  .col-lg-4 > .row > img {
+    width: 70px;
+    height: 70px !important;
+  }
+  .opinion > .row,
+  .more-stories > .row,
+  .col-lg-4 > .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
+  header {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex !important;
+    height: 10vh;
+    padding: 20px 10px;
+    background-color: #f72210;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    
+  }
+  .row > .col-lg-8,
+  .subscribe-group,
+  .newsletter {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .subscribe-text {
+    padding-top: 80px !important;
+  }
+
+  .newsletter-image {
+    display: none;
+  }
+
+  .row > .col-lg-8 > img {
+    width: 320px;
+    height: fit-content;
+  }
+
+  .col-lg-4 > .row,
+  .more-stories > .row,
+  .debate-items > .row,
+  .opinion > .row {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .nav-logo > svg {
+    width: 100px;
+  }
+  .mobile-actions > a:nth-child(1) {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .mobile-actions > .btn-primary {
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+  }
+  .fa-bars {
+    font-size: 16px;
+  }
   .featured-stories {
     order: 3;
   }
+
 }
 
 /* Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .container {
     max-width: 100%; 
   }
