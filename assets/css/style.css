@@ -388,7 +388,7 @@ section > h2,
 }
 
 /* Phones. */
-@media screen and (max-width: 425px) and (min-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   header {
     display: none;
   }
@@ -456,6 +456,17 @@ section > h2,
   .row > .col-lg-8 > img {
     width: 320px;
     height: fit-content;
+  }
+
+  .subscribe-group {
+    text-align: center;
+  }
+
+  .subscribe {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: fit-content;
   }
 
   .col-lg-4 > .row,
