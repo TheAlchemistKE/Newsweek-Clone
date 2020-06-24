@@ -386,10 +386,7 @@ section > h2,
 /* Tablets */
 @media only screen and (max-width: 768px) {
   .container {
-    width: 100% !important;
-  }
-  .navbar {
-    display: none !important;
+    max-width: 100%; 
   }
 
   .featured-stories {
