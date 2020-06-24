@@ -499,7 +499,7 @@ section > h2,
 /* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .featured-stories {
@@ -532,6 +532,7 @@ section > h2,
   }
 
   .mobile-nav {
+    display: flex !important;
     height: 10vh;
     padding: 20px 10px;
     background-color: #f72210;
