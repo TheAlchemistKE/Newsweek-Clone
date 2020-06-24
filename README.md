@@ -1,14 +1,14 @@
 # Newsweek
+
 ![Linters](https://github.com/KelynPNjeri/Newsweek-Clone/workflows/Linters/badge.svg?branch=develop)
 
-
-> This website project is clone of the Newsweek landing page.
-> The project is responsive across all screen widths.
-
+> This website project is clone of the Newsweek landing page. The project is
+> responsive across all screen widths.
 
 ![screenshot](./assets/images/screenshot.png)
 
 ## Built With
+
 - HTML
 - CSS
 - Bootstrap
@@ -24,7 +24,8 @@
 To get a local copy up and running follow these simple steps.
 
 - Go to https://github.com/KelynPNjeri/Newsweek-Clone
-- Clone the repository using `git clone https://github.com/KelynPNjeri/Newsweek-Clone`
+- Clone the repository using
+  `git clone https://github.com/KelynPNjeri/Newsweek-Clone`
 - Run index.html on your browser.
 
 ## Authors
@@ -34,7 +35,6 @@ To get a local copy up and running follow these simple steps.
 - Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
 - Twitter: [@KelynNjeri](https://twitter.com/KelynNjeri)
 - Linkedin: [Kelyn Njeri](https://www.linkedin.com/in/kelyn-paul)
-
 
 ## 🤝 Contributing
 
