@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KelynPNjeri/Newsweek-Clone/638be12228ba60eaf776b862db7344bd47c34a4c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/KelynPNjeri/Newsweek-Clone/a01b866033b8c23c9afc6d7c592c9ff5f34ec5c2/index.html)
 
 ## Getting Started
 
