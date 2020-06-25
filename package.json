@@ -1,0 +1,26 @@
+{
+  "name": "Newsweek-Clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint:github-action": "npx stylelint ./assets/css/*.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelynPNjeri/Newsweek-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KelynPNjeri/Newsweek-Clone/issues"
+  },
+  "homepage": "https://github.com/KelynPNjeri/Newsweek-Clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}

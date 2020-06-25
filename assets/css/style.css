@@ -1,0 +1,583 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f5f6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 96% !important;
+}
+
+.mobile-nav {
+  display: none !important;
+}
+
+.btn-login {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.upper-nav > p {
+  color: #fff;
+}
+
+.title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+}
+
+.upper-nav {
+  height: 95px;
+  background-color: #f72210;
+  padding-bottom: 10px;
+}
+
+.upper-nav a > * {
+  width: 396px;
+  height: 60px;
+  margin: 10px auto 0;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar a {
+  color: #333;
+  border-right: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #f72210;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.actions > .btn-primary {
+  border: none;
+  border-radius: 20px;
+  background-color: yellow;
+  color: #000;
+}
+
+#search {
+  outline: none;
+  border: none;
+}
+
+.image1 {
+  background-image: url(../images/trump.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url(../images/fearless-girl-wall-street.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url(../images/chaz-retrial-people-color.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image4 {
+  background-image: url(../images/statue-christopher-columbus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image5 {
+  background-image: url(../images/jeff-memorial.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image6 {
+  background-image: url(../images/traveler-wears-mask-airport.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image7 {
+  background-image: url(../images/trump.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image8 {
+  background-image: url(../images/fearless-girl-wall-street.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image9 {
+  background-image: url(../images/cover-june-19-26-2020.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background-color: #f4f5f6;
+}
+
+section > h2,
+.section-class {
+  color: #f72210;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.debate > h2 {
+  border-bottom: 5px solid #f72210;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.card h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tag {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  margin-bottom: -1px;
+  text-align: left;
+}
+
+.culture-and-travel > .card > .card-image,
+.turn > .card > .card-image {
+  height: 30vh;
+}
+
+.turn > .card p {
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.4);
+  word-spacing: 2px;
+  padding: 10px 0;
+}
+
+.opinion > .row > p:hover {
+  color: silver;
+}
+
+.col-lg-3 > img {
+  width: 300px;
+  height: 350px;
+}
+
+.col-lg-6 > img {
+  height: 250px;
+}
+
+.col-lg-3 > a,
+.col-lg-6 > a,
+.col-lg-3 > .d-flex > a,
+.col-lg-6 > .d-flex > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.col-lg-3 > .d-flex > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.section-declaration > img {
+  width: 32px;
+}
+
+.subscribe > img {
+  width: 150px;
+}
+
+.row1 > img,
+.debate-items > .row > img,
+.opinion > .row > img {
+  width: 100px;
+  height: 70px !important;
+}
+
+.opinion > h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.row1 {
+  border-bottom: 4px double #ccc;
+}
+
+.row2 {
+  border-bottom: 4px solid #1c87fb;
+}
+
+.col-lg-5 > .card > .card-image:nth-child(1) {
+  background-image: url(../images/daca-supreme-court.jpg);
+}
+
+.img1 {
+  background-image: url(../images/daca-supreme-court.jpg);
+}
+
+.img2 {
+  background-image: url(../images/barbie-lockdown-parody-family.png);
+}
+
+.img3 {
+  background-image: url(../images/disability-soccer-personal-development-coaching.jpg);
+}
+
+.img4 {
+  background-image: url(../images/cul-uncharted-culturaladaptations-banner.jpg);
+}
+
+.img5 {
+  background-image: url(../images/traveler-wears-mask-airport.jpg);
+}
+
+.img6 {
+  background-image: url(../images/just-mercy.png);
+}
+
+.col-lg-9 h5 {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.category {
+  margin-top: 5px;
+}
+
+.category span {
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.category span:nth-child(1) {
+  background-color: #f72210;
+  color: #fff;
+}
+
+.category span:nth-child(2) {
+  background-color: #fff;
+  color: #f72210;
+}
+
+.section-declaration {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subscribe-group {
+  background-color: #f4f5f6;
+  height: fit-content;
+  padding: 50px 10px;
+}
+
+.newsletter-info > .btn-primary {
+  color: #fff;
+}
+
+.subscribe-cover {
+  position: absolute;
+  left: 60px;
+  top: 40px;
+}
+
+.subscribe-text h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+.newsletter-image {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row-card {
+  height: 80px;
+}
+
+.footer-logo > svg {
+  width: 250px;
+}
+
+.social-icons {
+  font-size: 28px;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #4c5fd7;
+}
+
+.d-inline {
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+
+.fa-tumblr:hover {
+  color: #35465d;
+}
+
+.fa-linkedin-in:hover {
+  color: #007bb5;
+}
+
+.footer-links {
+  font-size: 15px;
+}
+
+/* Phones. */
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  header {
+    display: none;
+  }
+
+  .container {
+    max-width: 100% !important;
+  }
+
+  .top-story {
+    order: 1;
+  }
+
+  .debate {
+    order: 2;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .debate-items > .row > img {
+    width: 80px;
+    height: 60px;
+  }
+
+  .opinion > .row > img,
+  .more-stories > .row > img,
+  .col-lg-4 > .row > img {
+    width: 70px;
+    height: 70px !important;
+  }
+
+  .opinion > .row,
+  .more-stories > .row,
+  .col-lg-4 > .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .mobile-nav {
+    display: flex !important;
+    height: 10vh;
+    padding: 20px 10px;
+    background-color: #f72210;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+  }
+
+  .row > .col-lg-8,
+  .subscribe-group,
+  .newsletter {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .subscribe-text {
+    padding-top: 80px !important;
+  }
+
+  .newsletter-image {
+    display: none;
+  }
+
+  .row > .col-lg-8 > img {
+    width: 320px;
+    height: fit-content;
+  }
+
+  .subscribe-group {
+    text-align: center;
+  }
+
+  .subscribe {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: fit-content;
+  }
+
+  .col-lg-4 > .row,
+  .more-stories > .row,
+  .debate-items > .row,
+  .opinion > .row {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .nav-logo > svg {
+    width: 100px;
+  }
+
+  .mobile-actions > a:nth-child(1) {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .mobile-actions > .btn-primary {
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+  }
+
+  .fa-bars {
+    font-size: 16px;
+  }
+
+  .featured-stories {
+    order: 3;
+  }
+
+  .upper-footer {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .featured-stories {
+    position: sticky;
+    bottom: 0;
+  }
+
+  .debate-items > .row > img {
+    width: 80px;
+    height: 60px;
+  }
+
+  .opinion > .row > img,
+  .more-stories > .row > img,
+  .col-lg-4 > .row > img {
+    width: 70px;
+    height: 70px !important;
+  }
+
+  .opinion > .row,
+  .more-stories > .row,
+  .col-lg-4 > .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  header {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex !important;
+    height: 10vh;
+    padding: 20px 10px;
+    background-color: #f72210;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+  }
+
+  .nav-logo > svg {
+    width: 200px;
+  }
+
+  .mobile-actions > a:nth-child(1) {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .mobile-actions > .btn-primary {
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+  }
+
+  .fa-bars {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-story,
+  .debate {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
+}
